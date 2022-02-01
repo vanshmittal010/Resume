@@ -1,0 +1,30 @@
+h1 {
+text-align:center;
+}
+.grid-cont {
+display:grid;
+grid-template-columns: 1.5fr 1fr 1fr;
+}
+.grid-cont>div {
+padding:20px;
+}
+.right {
+	text-align:right;
+}
+.grid-container {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+.grid-container>div {
+	padding:20px;
+}
+table,td {
+	border:5px solid white;
+	border-collapse: collapse;
+	padding:5px;
+	text-align: center;
+}
+td {
+	background-color: grey;
+	color:white;
+}
